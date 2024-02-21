@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6229D6622B86538F00583F02 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6229D6602B86538F00583F02 /* Model.xcdatamodeld */; };
 		62C513C42B86470600D74BFA /* football_calendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C513C32B86470600D74BFA /* football_calendarApp.swift */; };
 		62C513C62B86470600D74BFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C513C52B86470600D74BFA /* ContentView.swift */; };
 		62C513C82B86470C00D74BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C513C72B86470C00D74BFA /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6229D6612B86538F00583F02 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		62C513C02B86470600D74BFA /* football-calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "football-calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C513C32B86470600D74BFA /* football_calendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = football_calendarApp.swift; sourceTree = "<group>"; };
 		62C513C52B86470600D74BFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				62C513C72B86470C00D74BFA /* Assets.xcassets */,
 				62C513CC2B86470C00D74BFA /* football_calendar.entitlements */,
 				62C513C92B86470C00D74BFA /* Preview Content */,
+				6229D6602B86538F00583F02 /* Model.xcdatamodeld */,
 			);
 			path = "football-calendar";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				62C513C62B86470600D74BFA /* ContentView.swift in Sources */,
 				62C513C42B86470600D74BFA /* football_calendarApp.swift in Sources */,
+				6229D6622B86538F00583F02 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +572,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6229D6602B86538F00583F02 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6229D6612B86538F00583F02 /* Model.xcdatamodel */,
+			);
+			currentVersion = 6229D6612B86538F00583F02 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 62C513B82B86470500D74BFA /* Project object */;
 }
