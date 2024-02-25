@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6229D6622B86538F00583F02 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6229D6602B86538F00583F02 /* Model.xcdatamodeld */; };
+		625307B42B8B9D2A00A18267 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625307B32B8B9D2A00A18267 /* EditView.swift */; };
+		625307B82B8BA41300A18267 /* MatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625307B72B8BA41300A18267 /* MatchListView.swift */; };
+		625307BF2B8BA68500A18267 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625307BE2B8BA68500A18267 /* Match.swift */; };
+		625307C12B8BA78600A18267 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625307C02B8BA78600A18267 /* Team.swift */; };
 		62C513C42B86470600D74BFA /* football_calendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C513C32B86470600D74BFA /* football_calendarApp.swift */; };
 		62C513C62B86470600D74BFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C513C52B86470600D74BFA /* ContentView.swift */; };
 		62C513C82B86470C00D74BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C513C72B86470C00D74BFA /* Assets.xcassets */; };
@@ -35,7 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6229D6612B86538F00583F02 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		625307B32B8B9D2A00A18267 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		625307B72B8BA41300A18267 /* MatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchListView.swift; sourceTree = "<group>"; };
+		625307BE2B8BA68500A18267 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		625307C02B8BA78600A18267 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		62C513C02B86470600D74BFA /* football-calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "football-calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C513C32B86470600D74BFA /* football_calendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = football_calendarApp.swift; sourceTree = "<group>"; };
 		62C513C52B86470600D74BFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +80,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		625307B22B8B961D00A18267 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62C513C52B86470600D74BFA /* ContentView.swift */,
+				625307B32B8B9D2A00A18267 /* EditView.swift */,
+				625307B72B8BA41300A18267 /* MatchListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		625307B92B8BA4F000A18267 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				625307BE2B8BA68500A18267 /* Match.swift */,
+				625307C02B8BA78600A18267 /* Team.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		62C513B72B86470500D74BFA = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +122,12 @@
 		62C513C22B86470600D74BFA /* football-calendar */ = {
 			isa = PBXGroup;
 			children = (
+				625307B92B8BA4F000A18267 /* Model */,
+				625307B22B8B961D00A18267 /* View */,
 				62C513C32B86470600D74BFA /* football_calendarApp.swift */,
-				62C513C52B86470600D74BFA /* ContentView.swift */,
 				62C513C72B86470C00D74BFA /* Assets.xcassets */,
 				62C513CC2B86470C00D74BFA /* football_calendar.entitlements */,
 				62C513C92B86470C00D74BFA /* Preview Content */,
-				6229D6602B86538F00583F02 /* Model.xcdatamodeld */,
 			);
 			path = "football-calendar";
 			sourceTree = "<group>";
@@ -200,6 +225,7 @@
 				TargetAttributes = {
 					62C513BF2B86470600D74BFA = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1520;
 					};
 					62C513D02B86470C00D74BFA = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -264,7 +290,10 @@
 			files = (
 				62C513C62B86470600D74BFA /* ContentView.swift in Sources */,
 				62C513C42B86470600D74BFA /* football_calendarApp.swift in Sources */,
-				6229D6622B86538F00583F02 /* Model.xcdatamodeld in Sources */,
+				625307C12B8BA78600A18267 /* Team.swift in Sources */,
+				625307B42B8B9D2A00A18267 /* EditView.swift in Sources */,
+				625307B82B8BA41300A18267 /* MatchListView.swift in Sources */,
+				625307BF2B8BA68500A18267 /* Match.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "football-calendar/football_calendar.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -435,6 +465,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "it.xcorra.football-calendar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "football-calendar/Model/football-calendar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -444,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "football-calendar/football_calendar.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -460,6 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "it.xcorra.football-calendar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "football-calendar/Model/football-calendar-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -572,19 +606,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		6229D6602B86538F00583F02 /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				6229D6612B86538F00583F02 /* Model.xcdatamodel */,
-			);
-			currentVersion = 6229D6612B86538F00583F02 /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 62C513B82B86470500D74BFA /* Project object */;
 }

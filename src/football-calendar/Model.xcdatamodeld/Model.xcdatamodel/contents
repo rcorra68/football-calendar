@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21H1015" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23D60" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Match" representedClassName="Match" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="guid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="homeTeam" optional="YES" attributeType="String"/>
+        <attribute name="hostTeam" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+    </entity>
     <entity name="Team" representedClassName="Team" syncable="YES" codeGenerationType="class">
+        <attribute name="courtAddress" optional="YES" attributeType="String"/>
+        <attribute name="courtId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="courtName" optional="YES" attributeType="String"/>
+        <attribute name="eMail" optional="YES" attributeType="String"/>
         <attribute name="guid" attributeType="String"/>
+        <attribute name="manager" optional="YES" attributeType="String"/>
+        <attribute name="matchDay" optional="YES" attributeType="String"/>
+        <attribute name="matchTime" optional="YES" attributeType="String"/>
+        <attribute name="mobilePhone" optional="YES" attributeType="String"/>
+        <attribute name="pec" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="sitePhone" optional="YES" attributeType="String"/>
         <attribute name="teamName" optional="YES" attributeType="String"/>
     </entity>
-    <elements>
-        <element name="Team" positionX="-63" positionY="-18" width="128" height="73"/>
-    </elements>
 </model>
