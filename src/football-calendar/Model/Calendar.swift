@@ -8,9 +8,9 @@
 import Foundation
 
 struct Calendar {
-    private (set) var matchs: [Match]
+    private (set) var matches: [Match]
     
     mutating func add(_ match: Match) {
-            matchs.append(match)
-        }
+        matches.append(match)
+    }
 }

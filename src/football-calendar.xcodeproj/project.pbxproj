@@ -17,6 +17,11 @@
 		625044912B90F2C400AE6FEC /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625044902B90F2C400AE6FEC /* Team.swift */; };
 		625044932B90F2F300AE6FEC /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625044922B90F2F300AE6FEC /* Match.swift */; };
 		62904FC82B9338FA00527BFC /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62904FC72B9338FA00527BFC /* Calendar.swift */; };
+		62904FCC2B936A6400527BFC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62904FCB2B936A6400527BFC /* HomeView.swift */; };
+		62904FCE2B936E5B00527BFC /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62904FCD2B936E5B00527BFC /* MatchView.swift */; };
+		62904FD02B9371AD00527BFC /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62904FCF2B9371AD00527BFC /* Formatting.swift */; };
+		62904FD22B93764F00527BFC /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62904FD12B93764F00527BFC /* TestData.swift */; };
+		62904FD62B9380DB00527BFC /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62904FD52B9380DB00527BFC /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		625044902B90F2C400AE6FEC /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		625044922B90F2F300AE6FEC /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		62904FC72B9338FA00527BFC /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		62904FCB2B936A6400527BFC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		62904FCD2B936E5B00527BFC /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
+		62904FCF2B9371AD00527BFC /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
+		62904FD12B93764F00527BFC /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		62904FD52B9380DB00527BFC /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +114,12 @@
 				6250448B2B90F1FA00AE6FEC /* Model */,
 				625044862B90F17B00AE6FEC /* View */,
 				625044532B90EF0A00AE6FEC /* football_calendarApp.swift */,
+				625044842B90F14100AE6FEC /* ContentView.swift */,
 				625044572B90EF0C00AE6FEC /* Assets.xcassets */,
 				6250445C2B90EF0C00AE6FEC /* football_calendar.entitlements */,
 				625044592B90EF0C00AE6FEC /* Preview Content */,
+				62904FCF2B9371AD00527BFC /* Formatting.swift */,
+				62904FD12B93764F00527BFC /* TestData.swift */,
 			);
 			path = "football-calendar";
 			sourceTree = "<group>";
@@ -139,7 +152,9 @@
 		625044862B90F17B00AE6FEC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				625044842B90F14100AE6FEC /* ContentView.swift */,
+				62904FCB2B936A6400527BFC /* HomeView.swift */,
+				62904FCD2B936E5B00527BFC /* MatchView.swift */,
+				62904FD52B9380DB00527BFC /* CalendarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -284,9 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62904FD62B9380DB00527BFC /* CalendarView.swift in Sources */,
 				625044852B90F14100AE6FEC /* ContentView.swift in Sources */,
+				62904FCC2B936A6400527BFC /* HomeView.swift in Sources */,
+				62904FD22B93764F00527BFC /* TestData.swift in Sources */,
 				625044542B90EF0A00AE6FEC /* football_calendarApp.swift in Sources */,
+				62904FD02B9371AD00527BFC /* Formatting.swift in Sources */,
 				625044912B90F2C400AE6FEC /* Team.swift in Sources */,
+				62904FCE2B936E5B00527BFC /* MatchView.swift in Sources */,
 				625044932B90F2F300AE6FEC /* Match.swift in Sources */,
 				62904FC82B9338FA00527BFC /* Calendar.swift in Sources */,
 			);

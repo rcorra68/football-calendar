@@ -9,6 +9,7 @@ import Foundation
 
 struct Match: Identifiable {
     let id = UUID()
+    let home: Bool
     let homeTeam: Team
     let hostTeam: Team
     let matchDate: Date
