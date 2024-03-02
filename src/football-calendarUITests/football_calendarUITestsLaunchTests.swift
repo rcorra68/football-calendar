@@ -2,12 +2,12 @@
 //  football_calendarUITestsLaunchTests.swift
 //  football-calendarUITests
 //
-//  Created by Roberto Corradetti on 21/02/24.
+//  Created by Roberto Corradetti on 29/02/24.
 //
 
 import XCTest
 
-class football_calendarUITestsLaunchTests: XCTestCase {
+final class football_calendarUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

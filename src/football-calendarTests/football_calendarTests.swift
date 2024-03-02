@@ -2,13 +2,13 @@
 //  football_calendarTests.swift
 //  football-calendarTests
 //
-//  Created by Roberto Corradetti on 21/02/24.
+//  Created by Roberto Corradetti on 29/02/24.
 //
 
 import XCTest
 @testable import football_calendar
 
-class football_calendarTests: XCTestCase {
+final class football_calendarTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

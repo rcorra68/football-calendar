@@ -3,74 +3,72 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		625307B42B8B9D2A00A18267 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625307B32B8B9D2A00A18267 /* EditView.swift */; };
-		625307B82B8BA41300A18267 /* MatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625307B72B8BA41300A18267 /* MatchListView.swift */; };
-		625307BF2B8BA68500A18267 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625307BE2B8BA68500A18267 /* Match.swift */; };
-		625307C12B8BA78600A18267 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625307C02B8BA78600A18267 /* Team.swift */; };
-		62C513C42B86470600D74BFA /* football_calendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C513C32B86470600D74BFA /* football_calendarApp.swift */; };
-		62C513C62B86470600D74BFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C513C52B86470600D74BFA /* ContentView.swift */; };
-		62C513C82B86470C00D74BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C513C72B86470C00D74BFA /* Assets.xcassets */; };
-		62C513CB2B86470C00D74BFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C513CA2B86470C00D74BFA /* Preview Assets.xcassets */; };
-		62C513D62B86470C00D74BFA /* football_calendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C513D52B86470C00D74BFA /* football_calendarTests.swift */; };
-		62C513E02B86470C00D74BFA /* football_calendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C513DF2B86470C00D74BFA /* football_calendarUITests.swift */; };
-		62C513E22B86470C00D74BFA /* football_calendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C513E12B86470C00D74BFA /* football_calendarUITestsLaunchTests.swift */; };
+		625044542B90EF0A00AE6FEC /* football_calendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625044532B90EF0A00AE6FEC /* football_calendarApp.swift */; };
+		625044582B90EF0C00AE6FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625044572B90EF0C00AE6FEC /* Assets.xcassets */; };
+		6250445B2B90EF0C00AE6FEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6250445A2B90EF0C00AE6FEC /* Preview Assets.xcassets */; };
+		625044662B90EF0D00AE6FEC /* football_calendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625044652B90EF0D00AE6FEC /* football_calendarTests.swift */; };
+		625044702B90EF0D00AE6FEC /* football_calendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6250446F2B90EF0D00AE6FEC /* football_calendarUITests.swift */; };
+		625044722B90EF0D00AE6FEC /* football_calendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625044712B90EF0D00AE6FEC /* football_calendarUITestsLaunchTests.swift */; };
+		625044852B90F14100AE6FEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625044842B90F14100AE6FEC /* ContentView.swift */; };
+		625044912B90F2C400AE6FEC /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625044902B90F2C400AE6FEC /* Team.swift */; };
+		625044932B90F2F300AE6FEC /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625044922B90F2F300AE6FEC /* Match.swift */; };
+		62904FC82B9338FA00527BFC /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62904FC72B9338FA00527BFC /* Calendar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		62C513D22B86470C00D74BFA /* PBXContainerItemProxy */ = {
+		625044622B90EF0D00AE6FEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 62C513B82B86470500D74BFA /* Project object */;
+			containerPortal = 625044482B90EF0A00AE6FEC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 62C513BF2B86470600D74BFA;
+			remoteGlobalIDString = 6250444F2B90EF0A00AE6FEC;
 			remoteInfo = "football-calendar";
 		};
-		62C513DC2B86470C00D74BFA /* PBXContainerItemProxy */ = {
+		6250446C2B90EF0D00AE6FEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 62C513B82B86470500D74BFA /* Project object */;
+			containerPortal = 625044482B90EF0A00AE6FEC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 62C513BF2B86470600D74BFA;
+			remoteGlobalIDString = 6250444F2B90EF0A00AE6FEC;
 			remoteInfo = "football-calendar";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		625307B32B8B9D2A00A18267 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
-		625307B72B8BA41300A18267 /* MatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchListView.swift; sourceTree = "<group>"; };
-		625307BE2B8BA68500A18267 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
-		625307C02B8BA78600A18267 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
-		62C513C02B86470600D74BFA /* football-calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "football-calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62C513C32B86470600D74BFA /* football_calendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = football_calendarApp.swift; sourceTree = "<group>"; };
-		62C513C52B86470600D74BFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		62C513C72B86470C00D74BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		62C513CA2B86470C00D74BFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		62C513CC2B86470C00D74BFA /* football_calendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = football_calendar.entitlements; sourceTree = "<group>"; };
-		62C513D12B86470C00D74BFA /* football-calendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "football-calendarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62C513D52B86470C00D74BFA /* football_calendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = football_calendarTests.swift; sourceTree = "<group>"; };
-		62C513DB2B86470C00D74BFA /* football-calendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "football-calendarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62C513DF2B86470C00D74BFA /* football_calendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = football_calendarUITests.swift; sourceTree = "<group>"; };
-		62C513E12B86470C00D74BFA /* football_calendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = football_calendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		625044502B90EF0A00AE6FEC /* football-calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "football-calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		625044532B90EF0A00AE6FEC /* football_calendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = football_calendarApp.swift; sourceTree = "<group>"; };
+		625044572B90EF0C00AE6FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6250445A2B90EF0C00AE6FEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6250445C2B90EF0C00AE6FEC /* football_calendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = football_calendar.entitlements; sourceTree = "<group>"; };
+		625044612B90EF0D00AE6FEC /* football-calendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "football-calendarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		625044652B90EF0D00AE6FEC /* football_calendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = football_calendarTests.swift; sourceTree = "<group>"; };
+		6250446B2B90EF0D00AE6FEC /* football-calendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "football-calendarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6250446F2B90EF0D00AE6FEC /* football_calendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = football_calendarUITests.swift; sourceTree = "<group>"; };
+		625044712B90EF0D00AE6FEC /* football_calendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = football_calendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		625044842B90F14100AE6FEC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		625044902B90F2C400AE6FEC /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		625044922B90F2F300AE6FEC /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		62904FC72B9338FA00527BFC /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		62C513BD2B86470600D74BFA /* Frameworks */ = {
+		6250444D2B90EF0A00AE6FEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C513CE2B86470C00D74BFA /* Frameworks */ = {
+		6250445E2B90EF0D00AE6FEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C513D82B86470C00D74BFA /* Frameworks */ = {
+		625044682B90EF0D00AE6FEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,93 +78,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		625307B22B8B961D00A18267 /* View */ = {
+		625044472B90EF0A00AE6FEC = {
 			isa = PBXGroup;
 			children = (
-				62C513C52B86470600D74BFA /* ContentView.swift */,
-				625307B32B8B9D2A00A18267 /* EditView.swift */,
-				625307B72B8BA41300A18267 /* MatchListView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		625307B92B8BA4F000A18267 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				625307BE2B8BA68500A18267 /* Match.swift */,
-				625307C02B8BA78600A18267 /* Team.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		62C513B72B86470500D74BFA = {
-			isa = PBXGroup;
-			children = (
-				62C513C22B86470600D74BFA /* football-calendar */,
-				62C513D42B86470C00D74BFA /* football-calendarTests */,
-				62C513DE2B86470C00D74BFA /* football-calendarUITests */,
-				62C513C12B86470600D74BFA /* Products */,
+				625044522B90EF0A00AE6FEC /* football-calendar */,
+				625044642B90EF0D00AE6FEC /* football-calendarTests */,
+				6250446E2B90EF0D00AE6FEC /* football-calendarUITests */,
+				625044512B90EF0A00AE6FEC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		62C513C12B86470600D74BFA /* Products */ = {
+		625044512B90EF0A00AE6FEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62C513C02B86470600D74BFA /* football-calendar.app */,
-				62C513D12B86470C00D74BFA /* football-calendarTests.xctest */,
-				62C513DB2B86470C00D74BFA /* football-calendarUITests.xctest */,
+				625044502B90EF0A00AE6FEC /* football-calendar.app */,
+				625044612B90EF0D00AE6FEC /* football-calendarTests.xctest */,
+				6250446B2B90EF0D00AE6FEC /* football-calendarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		62C513C22B86470600D74BFA /* football-calendar */ = {
+		625044522B90EF0A00AE6FEC /* football-calendar */ = {
 			isa = PBXGroup;
 			children = (
-				625307B92B8BA4F000A18267 /* Model */,
-				625307B22B8B961D00A18267 /* View */,
-				62C513C32B86470600D74BFA /* football_calendarApp.swift */,
-				62C513C72B86470C00D74BFA /* Assets.xcassets */,
-				62C513CC2B86470C00D74BFA /* football_calendar.entitlements */,
-				62C513C92B86470C00D74BFA /* Preview Content */,
+				6250448B2B90F1FA00AE6FEC /* Model */,
+				625044862B90F17B00AE6FEC /* View */,
+				625044532B90EF0A00AE6FEC /* football_calendarApp.swift */,
+				625044572B90EF0C00AE6FEC /* Assets.xcassets */,
+				6250445C2B90EF0C00AE6FEC /* football_calendar.entitlements */,
+				625044592B90EF0C00AE6FEC /* Preview Content */,
 			);
 			path = "football-calendar";
 			sourceTree = "<group>";
 		};
-		62C513C92B86470C00D74BFA /* Preview Content */ = {
+		625044592B90EF0C00AE6FEC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				62C513CA2B86470C00D74BFA /* Preview Assets.xcassets */,
+				6250445A2B90EF0C00AE6FEC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		62C513D42B86470C00D74BFA /* football-calendarTests */ = {
+		625044642B90EF0D00AE6FEC /* football-calendarTests */ = {
 			isa = PBXGroup;
 			children = (
-				62C513D52B86470C00D74BFA /* football_calendarTests.swift */,
+				625044652B90EF0D00AE6FEC /* football_calendarTests.swift */,
 			);
 			path = "football-calendarTests";
 			sourceTree = "<group>";
 		};
-		62C513DE2B86470C00D74BFA /* football-calendarUITests */ = {
+		6250446E2B90EF0D00AE6FEC /* football-calendarUITests */ = {
 			isa = PBXGroup;
 			children = (
-				62C513DF2B86470C00D74BFA /* football_calendarUITests.swift */,
-				62C513E12B86470C00D74BFA /* football_calendarUITestsLaunchTests.swift */,
+				6250446F2B90EF0D00AE6FEC /* football_calendarUITests.swift */,
+				625044712B90EF0D00AE6FEC /* football_calendarUITestsLaunchTests.swift */,
 			);
 			path = "football-calendarUITests";
+			sourceTree = "<group>";
+		};
+		625044862B90F17B00AE6FEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				625044842B90F14100AE6FEC /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6250448B2B90F1FA00AE6FEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				625044902B90F2C400AE6FEC /* Team.swift */,
+				625044922B90F2F300AE6FEC /* Match.swift */,
+				62904FC72B9338FA00527BFC /* Calendar.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		62C513BF2B86470600D74BFA /* football-calendar */ = {
+		6250444F2B90EF0A00AE6FEC /* football-calendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62C513E52B86470C00D74BFA /* Build configuration list for PBXNativeTarget "football-calendar" */;
+			buildConfigurationList = 625044752B90EF0D00AE6FEC /* Build configuration list for PBXNativeTarget "football-calendar" */;
 			buildPhases = (
-				62C513BC2B86470600D74BFA /* Sources */,
-				62C513BD2B86470600D74BFA /* Frameworks */,
-				62C513BE2B86470600D74BFA /* Resources */,
+				6250444C2B90EF0A00AE6FEC /* Sources */,
+				6250444D2B90EF0A00AE6FEC /* Frameworks */,
+				6250444E2B90EF0A00AE6FEC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -174,107 +171,106 @@
 			);
 			name = "football-calendar";
 			productName = "football-calendar";
-			productReference = 62C513C02B86470600D74BFA /* football-calendar.app */;
+			productReference = 625044502B90EF0A00AE6FEC /* football-calendar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62C513D02B86470C00D74BFA /* football-calendarTests */ = {
+		625044602B90EF0D00AE6FEC /* football-calendarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62C513E82B86470C00D74BFA /* Build configuration list for PBXNativeTarget "football-calendarTests" */;
+			buildConfigurationList = 625044782B90EF0D00AE6FEC /* Build configuration list for PBXNativeTarget "football-calendarTests" */;
 			buildPhases = (
-				62C513CD2B86470C00D74BFA /* Sources */,
-				62C513CE2B86470C00D74BFA /* Frameworks */,
-				62C513CF2B86470C00D74BFA /* Resources */,
+				6250445D2B90EF0D00AE6FEC /* Sources */,
+				6250445E2B90EF0D00AE6FEC /* Frameworks */,
+				6250445F2B90EF0D00AE6FEC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				62C513D32B86470C00D74BFA /* PBXTargetDependency */,
+				625044632B90EF0D00AE6FEC /* PBXTargetDependency */,
 			);
 			name = "football-calendarTests";
 			productName = "football-calendarTests";
-			productReference = 62C513D12B86470C00D74BFA /* football-calendarTests.xctest */;
+			productReference = 625044612B90EF0D00AE6FEC /* football-calendarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		62C513DA2B86470C00D74BFA /* football-calendarUITests */ = {
+		6250446A2B90EF0D00AE6FEC /* football-calendarUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62C513EB2B86470C00D74BFA /* Build configuration list for PBXNativeTarget "football-calendarUITests" */;
+			buildConfigurationList = 6250447B2B90EF0D00AE6FEC /* Build configuration list for PBXNativeTarget "football-calendarUITests" */;
 			buildPhases = (
-				62C513D72B86470C00D74BFA /* Sources */,
-				62C513D82B86470C00D74BFA /* Frameworks */,
-				62C513D92B86470C00D74BFA /* Resources */,
+				625044672B90EF0D00AE6FEC /* Sources */,
+				625044682B90EF0D00AE6FEC /* Frameworks */,
+				625044692B90EF0D00AE6FEC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				62C513DD2B86470C00D74BFA /* PBXTargetDependency */,
+				6250446D2B90EF0D00AE6FEC /* PBXTargetDependency */,
 			);
 			name = "football-calendarUITests";
 			productName = "football-calendarUITests";
-			productReference = 62C513DB2B86470C00D74BFA /* football-calendarUITests.xctest */;
+			productReference = 6250446B2B90EF0D00AE6FEC /* football-calendarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		62C513B82B86470500D74BFA /* Project object */ = {
+		625044482B90EF0A00AE6FEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					62C513BF2B86470600D74BFA = {
-						CreatedOnToolsVersion = 13.4.1;
-						LastSwiftMigration = 1520;
+					6250444F2B90EF0A00AE6FEC = {
+						CreatedOnToolsVersion = 15.2;
 					};
-					62C513D02B86470C00D74BFA = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 62C513BF2B86470600D74BFA;
+					625044602B90EF0D00AE6FEC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6250444F2B90EF0A00AE6FEC;
 					};
-					62C513DA2B86470C00D74BFA = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 62C513BF2B86470600D74BFA;
+					6250446A2B90EF0D00AE6FEC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6250444F2B90EF0A00AE6FEC;
 					};
 				};
 			};
-			buildConfigurationList = 62C513BB2B86470500D74BFA /* Build configuration list for PBXProject "football-calendar" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 6250444B2B90EF0A00AE6FEC /* Build configuration list for PBXProject "football-calendar" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 62C513B72B86470500D74BFA;
-			productRefGroup = 62C513C12B86470600D74BFA /* Products */;
+			mainGroup = 625044472B90EF0A00AE6FEC;
+			productRefGroup = 625044512B90EF0A00AE6FEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62C513BF2B86470600D74BFA /* football-calendar */,
-				62C513D02B86470C00D74BFA /* football-calendarTests */,
-				62C513DA2B86470C00D74BFA /* football-calendarUITests */,
+				6250444F2B90EF0A00AE6FEC /* football-calendar */,
+				625044602B90EF0D00AE6FEC /* football-calendarTests */,
+				6250446A2B90EF0D00AE6FEC /* football-calendarUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		62C513BE2B86470600D74BFA /* Resources */ = {
+		6250444E2B90EF0A00AE6FEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62C513CB2B86470C00D74BFA /* Preview Assets.xcassets in Resources */,
-				62C513C82B86470C00D74BFA /* Assets.xcassets in Resources */,
+				6250445B2B90EF0C00AE6FEC /* Preview Assets.xcassets in Resources */,
+				625044582B90EF0C00AE6FEC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C513CF2B86470C00D74BFA /* Resources */ = {
+		6250445F2B90EF0D00AE6FEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C513D92B86470C00D74BFA /* Resources */ = {
+		625044692B90EF0D00AE6FEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,59 +280,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		62C513BC2B86470600D74BFA /* Sources */ = {
+		6250444C2B90EF0A00AE6FEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62C513C62B86470600D74BFA /* ContentView.swift in Sources */,
-				62C513C42B86470600D74BFA /* football_calendarApp.swift in Sources */,
-				625307C12B8BA78600A18267 /* Team.swift in Sources */,
-				625307B42B8B9D2A00A18267 /* EditView.swift in Sources */,
-				625307B82B8BA41300A18267 /* MatchListView.swift in Sources */,
-				625307BF2B8BA68500A18267 /* Match.swift in Sources */,
+				625044852B90F14100AE6FEC /* ContentView.swift in Sources */,
+				625044542B90EF0A00AE6FEC /* football_calendarApp.swift in Sources */,
+				625044912B90F2C400AE6FEC /* Team.swift in Sources */,
+				625044932B90F2F300AE6FEC /* Match.swift in Sources */,
+				62904FC82B9338FA00527BFC /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C513CD2B86470C00D74BFA /* Sources */ = {
+		6250445D2B90EF0D00AE6FEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62C513D62B86470C00D74BFA /* football_calendarTests.swift in Sources */,
+				625044662B90EF0D00AE6FEC /* football_calendarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C513D72B86470C00D74BFA /* Sources */ = {
+		625044672B90EF0D00AE6FEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62C513E02B86470C00D74BFA /* football_calendarUITests.swift in Sources */,
-				62C513E22B86470C00D74BFA /* football_calendarUITestsLaunchTests.swift in Sources */,
+				625044702B90EF0D00AE6FEC /* football_calendarUITests.swift in Sources */,
+				625044722B90EF0D00AE6FEC /* football_calendarUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		62C513D32B86470C00D74BFA /* PBXTargetDependency */ = {
+		625044632B90EF0D00AE6FEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62C513BF2B86470600D74BFA /* football-calendar */;
-			targetProxy = 62C513D22B86470C00D74BFA /* PBXContainerItemProxy */;
+			target = 6250444F2B90EF0A00AE6FEC /* football-calendar */;
+			targetProxy = 625044622B90EF0D00AE6FEC /* PBXContainerItemProxy */;
 		};
-		62C513DD2B86470C00D74BFA /* PBXTargetDependency */ = {
+		6250446D2B90EF0D00AE6FEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62C513BF2B86470600D74BFA /* football-calendar */;
-			targetProxy = 62C513DC2B86470C00D74BFA /* PBXContainerItemProxy */;
+			target = 6250444F2B90EF0A00AE6FEC /* football-calendar */;
+			targetProxy = 6250446C2B90EF0D00AE6FEC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		62C513E32B86470C00D74BFA /* Debug */ = {
+		625044732B90EF0D00AE6FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -366,7 +362,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -380,23 +377,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		62C513E42B86470C00D74BFA /* Release */ = {
+		625044742B90EF0D00AE6FEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -426,7 +425,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -434,21 +434,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		62C513E62B86470C00D74BFA /* Debug */ = {
+		625044762B90EF0D00AE6FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "football-calendar/football_calendar.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -465,18 +464,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "it.xcorra.football-calendar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "football-calendar/Model/football-calendar-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		62C513E72B86470C00D74BFA /* Release */ = {
+		625044772B90EF0D00AE6FEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "football-calendar/football_calendar.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -493,12 +489,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "it.xcorra.football-calendar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "football-calendar/Model/football-calendar-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		62C513E92B86470C00D74BFA /* Debug */ = {
+		625044792B90EF0D00AE6FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -506,17 +501,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "it.xcorra.football-calendarTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/football-calendar.app/Contents/MacOS/football-calendar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/football-calendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/football-calendar";
 			};
 			name = Debug;
 		};
-		62C513EA2B86470C00D74BFA /* Release */ = {
+		6250447A2B90EF0D00AE6FEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -524,17 +519,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "it.xcorra.football-calendarTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/football-calendar.app/Contents/MacOS/football-calendar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/football-calendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/football-calendar";
 			};
 			name = Release;
 		};
-		62C513EC2B86470C00D74BFA /* Debug */ = {
+		6250447C2B90EF0D00AE6FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -550,7 +545,7 @@
 			};
 			name = Debug;
 		};
-		62C513ED2B86470C00D74BFA /* Release */ = {
+		6250447D2B90EF0D00AE6FEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -569,43 +564,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		62C513BB2B86470500D74BFA /* Build configuration list for PBXProject "football-calendar" */ = {
+		6250444B2B90EF0A00AE6FEC /* Build configuration list for PBXProject "football-calendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62C513E32B86470C00D74BFA /* Debug */,
-				62C513E42B86470C00D74BFA /* Release */,
+				625044732B90EF0D00AE6FEC /* Debug */,
+				625044742B90EF0D00AE6FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62C513E52B86470C00D74BFA /* Build configuration list for PBXNativeTarget "football-calendar" */ = {
+		625044752B90EF0D00AE6FEC /* Build configuration list for PBXNativeTarget "football-calendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62C513E62B86470C00D74BFA /* Debug */,
-				62C513E72B86470C00D74BFA /* Release */,
+				625044762B90EF0D00AE6FEC /* Debug */,
+				625044772B90EF0D00AE6FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62C513E82B86470C00D74BFA /* Build configuration list for PBXNativeTarget "football-calendarTests" */ = {
+		625044782B90EF0D00AE6FEC /* Build configuration list for PBXNativeTarget "football-calendarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62C513E92B86470C00D74BFA /* Debug */,
-				62C513EA2B86470C00D74BFA /* Release */,
+				625044792B90EF0D00AE6FEC /* Debug */,
+				6250447A2B90EF0D00AE6FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62C513EB2B86470C00D74BFA /* Build configuration list for PBXNativeTarget "football-calendarUITests" */ = {
+		6250447B2B90EF0D00AE6FEC /* Build configuration list for PBXNativeTarget "football-calendarUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62C513EC2B86470C00D74BFA /* Debug */,
-				62C513ED2B86470C00D74BFA /* Release */,
+				6250447C2B90EF0D00AE6FEC /* Debug */,
+				6250447D2B90EF0D00AE6FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 62C513B82B86470500D74BFA /* Project object */;
+	rootObject = 625044482B90EF0A00AE6FEC /* Project object */;
 }
