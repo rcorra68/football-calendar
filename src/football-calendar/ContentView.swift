@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection: MenuItem? = MenuItem.calendar
+    
+    @State private var allMatch = Match.examples()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+        NavigationSplitView{
+            SidebarView(selection: $selection)
+        } detail : {
+            switch selection {
+            case .calendar:
+                CalendarView(matches: $allMatch)
+            case .add:
+                EditView()
+            case nil:
+                Text("Empty")
+            }
         }
-        .padding()
     }
 }
 

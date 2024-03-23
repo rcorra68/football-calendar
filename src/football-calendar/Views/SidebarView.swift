@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct SidebarView: View {
+    @Binding var selection: MenuItem?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(selection: $selection) {
+                   Section("Menu") {
+                       ForEach(MenuItem.allCases) { selection in
+                           Label(selection.displayName,
+                                 systemImage: selection.iconName)
+                           .tag(selection)
+                       }
+                   }
+        }
     }
 }
 
 #Preview {
-    SidebarView()
+    SidebarView(selection: .constant(.calendar))
+        .listStyle(.sidebar)
 }

@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct CalendarView: View {
+    @Binding var matches: [Match]
+    @State private var selectedMatch: Match? = nil
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List($matches) {$match in
+            MatchView(match: $match,
+                      selectedMatch: $selectedMatch)
+        }
     }
 }
 
 #Preview {
-    CalendarView()
+    CalendarView(matches: .constant(Match.examples()))
 }

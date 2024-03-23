@@ -7,8 +7,8 @@
 
 import Foundation
 
-enum SidebarMenu: Identifiable, CaseIterable, Hashable {
-    case calendar,
+enum MenuItem: Identifiable, CaseIterable, Hashable {
+    case calendar
     case add
     
     var id: String {
@@ -34,7 +34,7 @@ enum SidebarMenu: Identifiable, CaseIterable, Hashable {
             case .calendar:
                 "calendar"
             case .add:
-                "sportcourt"
+                "sportscourt"
         }
     }
 }

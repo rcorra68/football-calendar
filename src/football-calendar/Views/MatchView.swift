@@ -8,36 +8,34 @@
 import SwiftUI
 
 struct MatchView: View {
-    var homeTeam: String = "Home Team"
-    var hostTeam: String = "Host Team"
-    var courtName: String = "Court Name"
-    var matchDate: Date = Date()
-    var matchTime: String = "15:00"
-    var homeMatch: Bool = false
-    
+    @Binding var match: Match
+    @Binding var selectedMatch: Match?
+        
     var body: some View {
         HStack {
-            HomeView(homeMatch: homeMatch)
+            HomeView(homeMatch: match.home)
             VStack(alignment: .leading, spacing: 4.0) {
                 HStack {
-                    Text(homeTeam)
-                        .font(.body.weight(homeMatch ? .bold : .light))
+                    Text(match.homeTeam.teamName)
+                        .font(.body.weight(match.home ? .bold : .light))
                     Text("-")
-                    Text(hostTeam)
-                        .font(.body.weight(homeMatch ? .light : .bold))
+                    Text(match.hostTeam.teamName)
+                        .font(.body.weight(match.home ? .light : .bold))
                 }
-                Text(courtName)
+                Text(match.homeTeam.courtName)
                     .font(.caption)
             }
             Spacer()
-            Text(matchDate.matchFormat)
+            Text(match.matchDate.matchFormat)
                 .font(.body)
-            Text(matchTime)
+            Text(match.matchTime)
                 .font(.body)
-        }
+            }
     }
 }
 
 #Preview {
-    MatchView()
+    MatchView(match: .constant(Match.example()),
+              selectedMatch: .constant(nil))
+    .padding()
 }
